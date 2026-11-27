@@ -1,8 +1,7 @@
 # BioMPNNs.jl
 
-Structure → sequence ("inverse folding") with message-passing neural networks, written in
-[Lux](https://github.com/LuxDL/Lux.jl). One package, a shared core, one directory per model family —
-the structure → sequence counterpart of BioFold.jl (sequence → structure).
+This package brings several "inverse folding" models (structure → sequence) based on message-passing neural networks to Julia using
+[Lux](https://github.com/LuxDL/Lux.jl)! 
 
 | Model | Types | Upstream | Checkpoints |
 |---|---|---|---|
